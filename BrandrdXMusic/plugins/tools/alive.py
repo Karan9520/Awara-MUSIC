@@ -15,15 +15,15 @@ async def start(client: Client, message: Message):
             [
                [
             InlineKeyboardButton(
-                text="☆ ʙʀᴀɴᴅᴇᴅ 💗 ", url=f"https://t.me/BRANDRDKING8"
+                text="—͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀", url=f"https://t.me/botcasx"
             ),
             InlineKeyboardButton(
-                text="☆ ꜱᴜᴘᴘᴏʀᴛ 💗", url=f"https://t.me/BRANDED_WORLD"
+                text="˹𝐁ᴇᴀᴛꭙ 𝐅ʟᴏᴡ™ ˼ | Support", url=f"https://t.me/BeatXFlowSupport"
             ),
         ],
                 [
             InlineKeyboardButton(
-                text="☆ ᴄʜᴀɴɴᴇʟ💗", url=f"https://t.me/BRANDRD_BOT"
+                text="˹𝐁ᴇᴀᴛꭙ 𝐅ʟᴏᴡ™ ˼ | 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/BeatFlowCommunity"
             ),
                 ],
                 [
