@@ -10,6 +10,7 @@ heroku3
 motor
 pillow==9.5.0
 psutil
+numpy
 wget
 qrcode
 future==0.18.3
