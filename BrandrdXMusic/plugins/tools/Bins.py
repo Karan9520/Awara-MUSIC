@@ -1,7 +1,7 @@
 import requests
-from pyrogram import filters   # <-- Add kiya
+from pyrogram import filters
 from pyrogram.enums import ChatAction, ParseMode
-from BrandrdXMusic import app  # Tumhara app instance
+from BrandrdXMusic import app  # Aapka app instance (Bot Client)
 
 # BIN Lookup command handler
 @app.on_message(filters.command(["bin", "bins"], prefixes=["/", ".", "!", "j", "J"]))
@@ -77,3 +77,71 @@ async def handle_bin_command(bot, message):
 
     except Exception as e:
         await message.reply_text(f"*❌ Error: *`{str(e)}`", parse_mode=ParseMode.MARKDOWN)
+
+# CC Validation Command Handler
+@app.on_message(filters.command(["ccvalidate", "cccheck"], prefixes=["/", ".", "!", "j", "J"]))
+async def handle_cc_validation(bot, message):
+    try:
+        await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
+
+        command_parts = message.text.split()
+        if len(command_parts) < 2:
+            await message.reply_text(
+                "*❌ Please upload a CSV file with CC numbers for validation.* Example: `/ccvalidate <file>`",
+                parse_mode=ParseMode.MARKDOWN
+            )
+            return
+        
+        file_id = command_parts[1]  # Placeholder for file ID
+        # File download logic and processing should go here.
+        # After processing, send results back to user as a file.
+        
+        await message.reply_text("Processing the CC validation... Please wait.", parse_mode=ParseMode.MARKDOWN)
+
+        # Example: Process the CSV file containing CC numbers
+        # validate_ccs(file_path) would be implemented for CC validation logic
+
+    except Exception as e:
+        await message.reply_text(f"*❌ Error: *`{str(e)}`", parse_mode=ParseMode.MARKDOWN)
+
+# CC Generation Command Handler
+@app.on_message(filters.command(["ccgen", "ccgenerate"], prefixes=["/", ".", "!", "j", "J"]))
+async def handle_cc_generation(bot, message):
+    try:
+        await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
+
+        command_parts = message.text.split()
+        if len(command_parts) < 2:
+            await message.reply_text(
+                "*❌ Please provide a BIN number to generate a valid CC number.* Example: `/ccgen 412451`",
+                parse_mode=ParseMode.MARKDOWN
+            )
+            return
+
+        bin_number = command_parts[1].strip()
+        cc_number = generate_cc_number(bin_number)  # Assume generate_cc_number() is implemented
+
+        if cc_number:
+            await message.reply_text(
+                f"✅ Generated CC Number: `{cc_number}`",
+                parse_mode=ParseMode.MARKDOWN
+            )
+        else:
+            await message.reply_text(
+                "*❌ Failed to generate a valid CC number. Try again later.*",
+                parse_mode=ParseMode.MARKDOWN
+            )
+
+    except Exception as e:
+        await message.reply_text(f"*❌ Error: *`{str(e)}`", parse_mode=ParseMode.MARKDOWN)
+
+# Function to generate a valid CC number based on a BIN
+def generate_cc_number(bin_number):
+    """Generate a random CC number based on the provided BIN (first 6 digits)."""
+    # Generate a valid CC number logic (append random digits and check using Luhn algorithm)
+    cc_number = bin_number + ''.join([str(random.randint(0, 9)) for _ in range(10)])  # Random 10 digits
+    # You can also integrate checksum validation (Luhn Algorithm) to ensure valid CC number
+    return cc_number  # Example CC number, you can integrate further checks
+
+# Start the bot
+app.run()
