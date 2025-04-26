@@ -30,15 +30,12 @@ httpx==0.25.2
 lyricsgenius
 spotipy
 SafoneAPI
-numpy
 youtube_search
 youtube-search-python
 googlesearch-python
 unidecode
-#TheApix
 #git+https://github.com/joetats/youtube_search@master
 #git+https://github.com/alexmercerind/youtube-search-python@main
 https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
 git+https://github.com/AsmSafone/SafoneAPI
-git+https://github.com/Vivekkumar-IN/TheApi.git
 bing_image_downloader
