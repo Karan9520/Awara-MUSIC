@@ -71,7 +71,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
                 text=" 𝗢𝗪𝗡𝗘𝗥 ", url=f"https://t.me/botcasx"
             ),
             InlineKeyboardButton(
-                text=" 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ", url=f"https://t.me/BeatXFlowSupport"
+                text=" 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ", url=f"https://t.me/SFW_BotCore"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -93,7 +93,7 @@ def stream_markup(_, videoid, chat_id):
                 text=" 𝗢𝗪𝗡𝗘𝗥 ", url=f"https://t.me/botcasx"
             ),
             InlineKeyboardButton(
-                text=" 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ", url=f"https://t.me/BeatXFlowSupport"
+                text=" 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ", url=f"https://t.me/SFW_BotCore"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -248,7 +248,7 @@ def stream_markup2(_, chat_id):
                 text=" 𝗢𝗪𝗡𝗘𝗥 ", url=f"https://t.me/botcasx"
             ),
             InlineKeyboardButton(
-                text=" 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ", url=f"https://t.me/BeatXFlowSupport"
+                text=" 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ", url=f"https://t.me/SFW_BotCore"
             ),
         ],
 
