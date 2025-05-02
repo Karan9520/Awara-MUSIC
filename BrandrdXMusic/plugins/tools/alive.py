@@ -18,12 +18,12 @@ async def start(client: Client, message: Message):
                 text="—͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀", url=f"https://t.me/botcasx"
             ),
             InlineKeyboardButton(
-                text="˹𝐁ᴇᴀᴛꭙ 𝐅ʟᴏᴡ™ ˼ | Support", url=f"https://t.me/BeatXFlowSupport"
+                text="【 𝗦𝐅𝗪 】𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬, url=f"https://t.me/SFW_BotCore"
             ),
         ],
                 [
             InlineKeyboardButton(
-                text="˹𝐁ᴇᴀᴛꭙ 𝐅ʟᴏᴡ™ ˼ | 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/BeatFlowCommunity"
+                text="【 𝗦𝐅𝗪 】𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 | 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/SFWBots_Official"
             ),
                 ],
                 [
