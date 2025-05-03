@@ -18,7 +18,7 @@ async def start(client: Client, message: Message):
                 text="—͟͟͞͞𝗔𝗞𝗔𝗦𝗛 🥀", url=f"https://t.me/botcasx"
             ),
             InlineKeyboardButton(
-                text="【 𝗦𝐅𝗪 】𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬, url=f"https://t.me/SFW_BotCore"
+                text="【 𝗦𝐅𝗪 】𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬", url=f"https://t.me/SFW_BotCore"
             ),
         ],
                 [
