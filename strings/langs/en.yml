@@ -217,7 +217,7 @@ queue_6 : "⏳ <b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> ᴜɴᴋɴᴏᴡɴ ᴅᴜʀ�
 queue_7 : "\n📋 ᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_8 : "🎵 <b>{0} ᴘʟᴀʏᴇʀ</b>\n\n▶️ 🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n🔗 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n👤 🥀 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<b><blockquote>➲ Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |⏤͟͞●</blockquote></b>\n\n📌 <b><blockquote>➠ Tɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n⏳ <b>➠ Dᴜʀᴀᴛɪᴏɴ :</b> {2} ᴍɪɴᴜᴛᴇs\n👤 <b>➠ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ </b> {3}<b></blockquote>\n💖 <b><blockquote>➠ ϻᴧᴅє ʙʏ ➛[ʙᴇᴀᴛ ꜰʟᴏᴡ](https://t.me/BeatXFlowSupport)</b></blockquote>"
+stream_1 : "<b><blockquote>➲ Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |⏤͟͞●</blockquote></b>\n\n📌 <b><blockquote>➠ Tɪᴛʟᴇ :</b> <a href={0}>{1}</a>\n⏳ <b>➠ Dᴜʀᴀᴛɪᴏɴ :</b> {2} ᴍɪɴᴜᴛᴇs\n👤 <b>➠ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ </b> {3}<b></blockquote>\n💖 <b><blockquote>➠ ϻᴧᴅє ʙʏ ➛[【 𝗦𝐅𝗪 】𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 ](https://t.me/SFW_Community_Official)</b></blockquote>"
 stream_2 : "<b><blockquote>➲ Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |⏤͟͞●</blockquote></b>\n\nℹ️ <b><blockquote>➠ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n👤 <b>➠ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}</blockquote>"
 
 #General
